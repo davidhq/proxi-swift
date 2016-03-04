@@ -12,6 +12,7 @@
 		18C6B2B11C89D14B0047E8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B2AF1C89D14B0047E8F9 /* Main.storyboard */; };
 		18C6B2B31C89D14B0047E8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B2B21C89D14B0047E8F9 /* Assets.xcassets */; };
 		18C6B2B61C89D14B0047E8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B2B41C89D14B0047E8F9 /* LaunchScreen.storyboard */; };
+		18C6B2BE1C89D2BD0047E8F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6B2BD1C89D2BD0047E8F9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18C6B2B21C89D14B0047E8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C6B2B51C89D14B0047E8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C6B2B71C89D14B0047E8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6B2BD1C89D2BD0047E8F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C6B2BE1C89D2BD0047E8F9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		18C6B29F1C89D14B0047E8F9 = {
 			isa = PBXGroup;
 			children = (
+				18C6B2BD1C89D2BD0047E8F9 /* MapKit.framework */,
 				18C6B2AA1C89D14B0047E8F9 /* proximatron-ios */,
 				18C6B2A91C89D14B0047E8F9 /* Products */,
 			);
